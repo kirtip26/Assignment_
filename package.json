@@ -1,0 +1,25 @@
+{
+  "name": "my-node-app",
+  "version": "1.0.0",
+  "description": "My Node.js application",
+  "main": "server.js",
+  "scripts": {
+    "start": "server.js",
+    "test": "mocha",
+    "script1": "node script1.js",
+    "script2": "node script2.js",
+    "script3": "node script3.js"
+  },
+  "author": "kirti",
+  "license": "MIT",
+  "dependencies": {
+    "adm-zip": "^0.5.10",
+    "mysql2": "^3.5.2",
+    "node-fetch": "^3.3.2",
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}
